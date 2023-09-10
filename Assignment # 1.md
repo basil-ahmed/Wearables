@@ -1,4 +1,4 @@
-## Activity: Observations
+# Activity: Observations
 
 ## Journal
 
