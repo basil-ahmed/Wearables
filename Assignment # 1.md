@@ -1,7 +1,8 @@
 ## Activity: Observations
-## Journal
 
 ### Think about how you exist in the world today.  Consider the various settings you enter and how those environments and people have had an impact on your presentation.  
+
+## Journal
 
 In my case, I use specific head and face adornments to convey my intentions and preferences:
 
@@ -51,6 +52,7 @@ I use a range of non-verbal cues involving your head, neck, and face to communic
 
 In summary, my use of head, neck, and facial gestures serves as a vital form of non-verbal communication, conveying agreement, acknowledgment, politeness, engagement, and emotional reactions in various social contexts with both individuals and the broader public.
 
+## Consider:
 
 ### 1. What might you be communicating that you were not aware of?
 
