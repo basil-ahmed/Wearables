@@ -4,7 +4,7 @@
 
 ## Activity: Observations
 
-### Think about how you exist in the world today. Consider the various settings you enter and how those environments and people have had an impact on your presentation.  
+### 1) Think about how you exist in the world today. Consider the various settings you enter and how those environments and people have had an impact on your presentation.  
 
 In my case, I use specific head and face adornments to convey my intentions and preferences:
 
