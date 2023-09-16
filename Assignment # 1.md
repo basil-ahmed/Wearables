@@ -2,7 +2,7 @@
 
 # Blog # 1
 
-## Activity: Observations
+## 1) Activity: Observations
 
 ### Think about how you exist in the world today. Consider the various settings you enter and how those environments and people have had an impact on your presentation.  
 
@@ -89,7 +89,7 @@ In summary, my use of head, neck, and facial gestures serves as a vital form of 
 In summary, my clothing choices exhibit a blend of intentional and unintentional communication. While I intentionally select formal or casual attire based on the occasion and may consciously choose colors for specific effects, my mood-related color choices and texture preferences often convey messages without me being fully aware of it. These non-verbal cues can influence how others perceive my mood and energy level.
 
 
-## NYU Digital Accessibility
+## 1) NYU Digital Accessibility
 
 Before delving into the digital accessibility resources available at NYU, I had some prior knowledge and considerations about the topic.
 
@@ -108,5 +108,8 @@ Following a 1.5-hour exploration of NYU's resources on digital accessibility, I 
 **Documentation and Resources Repository:** NYU maintains an extensive repository of documentation and resources dedicated to digital accessibility. This repository houses a wealth of articles, guides, checklists, and templates that individuals can use as references and tools to support their efforts in ensuring digital accessibility. This centralized resource hub simplifies the process of finding relevant information and materials to advance accessibility initiatives.
 
 **Accessibility Coordinators:** NYU employs dedicated accessibility coordinators or specialists who provide personalized guidance and support. These experts are available to address questions, offer tailored advice, and collaborate with individuals and departments to ensure digital content complies with accessibility standards. The presence of accessibility coordinators underscores NYU's commitment to accessibility and facilitates a proactive approach to addressing accessibility challenges.
+
+In conclusion, NYU's commitment to digital accessibility is evident through its multifaceted array of resources and support mechanisms. These resources cater to individuals with varying levels of expertise and encompass a broad spectrum of digital content, reinforcing the university's dedication to fostering an inclusive online environment. Whether you are a student, faculty member, or staff, NYU equips its community with the tools and knowledge necessary to champion digital accessibility.
+
 
 In conclusion, NYU's commitment to digital accessibility is evident through its multifaceted array of resources and support mechanisms. These resources cater to individuals with varying levels of expertise and encompass a broad spectrum of digital content, reinforcing the university's dedication to fostering an inclusive online environment. Whether you are a student, faculty member, or staff, NYU equips its community with the tools and knowledge necessary to champion digital accessibility.
