@@ -49,3 +49,5 @@ These personal associations with the color yellow evoke feelings of joy, warmth,
 6. **Zestiness:** The color yellow is also associated with zesty and tangy flavors, like that of a fresh lemon. This sensation is sharp and invigorating, like the taste of citrus.
 
 Overall, the textures associated with the color yellow can vary from smooth and soothing to crisp and zesty, depending on the context and personal experiences with the color.
+
+[Materials Associated with Yellow](https://github.com/basil-ahmed/Wearables/tree/bb25c21fa48fc694e5a93c841ca2123a4be3eb46/Blog2_Material)
