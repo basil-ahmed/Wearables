@@ -1,5 +1,5 @@
 # Blog 4
-## Findings with my Partner about color Yellow and Garment District
+## Findings with my Partner about the color Yellow and Garment District
 
 **Commonalities:**
 
@@ -26,3 +26,30 @@
 4. **Favorite Fabric Stores:** Each of us had their favorite fabric store based on their experiences. Mine was B&J for how organized it was and hers was Mood Fabrics for how much the variety of the fabrics was. It might also be worth considering if combining elements from both stores can create a unique blend of textures and materials for your fashion pieces.
 
 In summary, our discussion revealed shared themes and diverse perspectives that can enrich our collaborative creative process.
+
+
+## Accessibility Review and Questions
+
+In this step, I will be reviewing and addressing accessibility issues in my presentation. Here are the actions I will take and the questions that arise during this process:
+
+**Accessibility Review Actions:**
+
+1. **Slide Reading Order:** I checked the reading order of my presentation slides to ensure that they make sense when read by screen readers. Reordering slides or adjusting the layout may be necessary to improve accessibility.
+
+2. **Alt Text for Images:** I confirmed that all images used in my presentation have appropriate alt text. Alt text should describe the content or purpose of each image for individuals using screen readers.
+
+3. **Color Contrast:** I examined the color contrast of text against background colors to ensure readability. Adjustments might be needed to meet accessibility standards.
+
+4. **Links Descriptiveness:** I reviewed links within my slides to ensure they are presented descriptively. Instead of using long URLs, I will consider using more informative anchor text.
+
+**Questions Arising:**
+
+1. How can I ensure that the reading order of my slides is logical and understandable for screen reader users?
+
+2. What are some strategies for creating informative and concise alt text for images, especially when they contain complex information?
+
+3. Are there tools or resources available (other than Grackle) to check color contrast and ensure that my text is easily readable for individuals with visual impairments?
+
+4. How can I strike a balance between creating an aesthetically pleasing presentation and ensuring it is fully accessible to everyone?
+
+I understand that this accessibility review is not the primary focus of my wearables class, but I recognize the importance of considering how others may interact with my content. Ensuring accessibility is a way to make my work more inclusive and usable for a wider audience.
