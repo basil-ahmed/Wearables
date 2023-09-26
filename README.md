@@ -9,3 +9,5 @@
 [Blog 3](Assignment%233.md)
 
 [Blog 4](Assignment4.md)
+
+[Link to the Swatch Presentation](swatch_presentation.md)
