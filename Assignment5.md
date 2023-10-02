@@ -195,3 +195,6 @@ During this creative process, I found myself immersed in a sense of wonder and c
 In conclusion, the hot glue gun has proven to be a versatile tool for crafting captivating textures and textiles. This project has expanded my creative horizons, and I look forward to exploring further possibilities with this unconventional medium in future artistic endeavors.
 
 ![new_1](https://github.com/basil-ahmed/Wearables/assets/90772853/450f5184-9484-4bd4-b580-cbc94f655900)
+
+# Hartman Wearable Electronics Questions/Comments
+
