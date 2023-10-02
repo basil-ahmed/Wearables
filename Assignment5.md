@@ -198,3 +198,36 @@ In conclusion, the hot glue gun has proven to be a versatile tool for crafting c
 
 # Hartman Wearable Electronics Questions/Comments
 
+As I read through Chapter 1&2 of "Hartman_WearableElectronics," I encountered several concepts and ideas that raised questions and comments for further discussion:
+
+1. **Short Circuits:** I'm curious about the practical implications of short circuits in wearable electronics. How can we prevent them effectively, especially when dealing with soft circuits and wearable applications where flexibility is essential?
+
+2. **Resistor Color Codes:** While decoding resistor color codes is a valuable skill, are there any digital tools or smartphone apps available that can simplify this process for beginners?
+
+3. **Battery Placement:** Chapter 1 mentions the placement of batteries in series or parallel. How does this choice affect the overall design and functionality of wearable electronic projects?
+
+4. **Determining Polarity:** Is there any advanced technology or components that can help automate the process of determining polarity, especially for individuals with limited eyesight or color perception?
+
+5. **Multimeters:** Are there any specific recommendations for selecting a multimeter for beginners in wearable electronics? What features should we look for in a multimeter to make circuit testing more accessible?
+
+6. **Ohm's Law:** Ohm's law is fundamental, but are there any simplified guidelines or tools that can assist beginners in selecting resistors and ensuring they don't overpower LEDs or other components?
+
+7. **Conductive Materials:** How do you choose the right conductive materials for soft circuits in wearable electronics? Are there any considerations for comfort, durability, or washability?
+
+8. **Circuit Diagram vs. Physical Layout:** It's important to emphasize that a circuit diagram and the physical layout may differ. Can we explore methods or software tools that help bridge the gap between these two aspects, especially for beginners?
+
+9. **Battery Holders:** How can we adapt surface-mount battery holders for through-hole and soft-circuit applications effectively?
+
+10. **Exploration of Different Tools:** In Chapter 2 and beyond, I'm interested in learning about various tools and techniques for constructing wearable electronic circuits. Are there any specific tools that are particularly useful or unique to this field?
+
+11. Can you provide more information about the properties and use cases of conductive yarn and conductive fiber? How are they different from conductive thread?
+
+12. Are there any recent developments or new materials in the field of wearable electronics that have emerged after the knowledge cutoff date in September 2021?
+
+13. In the "Experiment: Wearable Circuits" section, it's mentioned to create two circuits: one hard and one soft. Could you explain a bit more about what is meant by a "hard circuit" in this context?
+
+14. It seems that the book emphasizes the importance of considering materials for insulation. Could you provide some examples or strategies for insulating conductive materials in wearable electronics projects?
+
+15. How does the book address the integration of power sources (e.g., batteries) into wearable electronics circuits? Are there specific considerations for power management in wearables?
+
+I look forward to discussing these questions and comments in class next week to gain a deeper understanding of wearable electronics and its practical applications.
