@@ -13,3 +13,5 @@
 [Blog 5](Assignment5.md)
 
 [Link to the Swatch Presentation](Swatch_presentation.md)
+
+[Blog 6](Assignment6.md)
