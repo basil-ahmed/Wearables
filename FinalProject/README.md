@@ -1,7 +1,9 @@
 # Final Project Updates
 ## Smart Cap
 
-### Description of the Circuit:
+### Week 1 Updates:
+
+#### Description of the Circuit:
 
 ![DALL·E 2023-11-06 17 00 37 - Create a simplified schematic diagram for a Smart Cap project  Include basic symbols for an OpenMV camera, buttons, and a Nano 33 IoT microcontroller](https://github.com/basil-ahmed/Wearables/assets/90772853/68336f97-a3d1-4c93-9705-d8b39a140b21)
 
@@ -38,3 +40,7 @@ Here's a description of how the components might be connected:
    - If to send notifications to a phone, the Nano 33 IoT will use its onboard Bluetooth or WiFi for communication.
 
 Please note that this description is quite general. Each component's datasheet should be consulted to ensure correct wiring and compatibility, especially in terms of voltage and current requirements.
+
+## Week 1 Questions:
+
+1. How do I connect OpenMV with Arduino Nano 33 IoT?
