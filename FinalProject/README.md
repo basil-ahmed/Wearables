@@ -44,3 +44,5 @@ Please note that this description is quite general. Each component's datasheet s
 ## Week 1 Questions:
 
 1. How do I connect OpenMV with Arduino Nano 33 IoT?
+
+### Week 2 Updates:
