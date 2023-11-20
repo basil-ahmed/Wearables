@@ -45,6 +45,7 @@ Please note that this description is quite general. Each component's datasheet s
 
 1. How do I connect OpenMV with Arduino Nano 33 IoT?
 
+---
 
 ## Week 2 Updates:
 
@@ -113,5 +114,88 @@ As I navigate these challenges, a few questions come to mind:
 3. **Is there a community or forum where I could seek advice or solutions from others who have faced similar issues?**
 
 I am eager to tackle these issues head-on and will keep updating on the progress. In the meantime, I welcome any suggestions or insights from fellow developers who have navigated similar challenges.
+
+---
+
+## Week 3 Updates: 
+
+### Progress with OpenMV Camera and Arduino Nano Integration
+
+#### Introduction
+
+This week brought significant advancements in my project, despite encountering hurdles with the OpenMV IDE and its compatibility with TensorFlow models. A meeting with my professor led to a breakthrough in an alternative approach for person detection, and I made substantial progress in establishing communication between the OpenMV camera and the Arduino Nano 33 IoT.
+
+#### Attempt with an Older Version of OpenMV IDE
+
+As per my professor's suggestion, I attempted to download and run an older version of the OpenMV IDE, hoping it would support the TensorFlow model for person detection. Unfortunately, this approach did not yield the desired results, leading me to explore other avenues. The 2.9.0 version that I downloaded had a lot of bugs in detecting the OpenMV camera and after a lot of tries I moved on to find a different solution.
+
+#### Breakthrough with Haar Cascade
+
+Finally, Instead of relying on TensorFlow, I pivoted to using Haar Cascade for face detection through the OpenMV camera. Haar Cascade is a machine learning object detection algorithm used to identify objects in an image or video, based on the concept of features proposed by Paul Viola and Michael Jones. It is particularly effective for face detection due to its speed and accuracy, making it a suitable alternative for this project.
+
+Utilizing Haar Cascade, I was able to successfully detect faces with the OpenMV camera. The following line of code was crucial in determining the number of faces detected in the camera frame:
+
+```python
+print("Number of Faces: ", len(objects))
+```
+
+This breakthrough is a significant step towards achieving the project’s goals.
+
+#### Images of the Model in Action:
+
+- **Detected Face:**
+
+  ![1](https://github.com/basil-ahmed/Wearables/assets/90772853/4483036b-dcb6-49a4-95e6-829219f4488d)
+
+- **When No Faces are detected:**
+
+  <img width="1440" alt="Screenshot 2023-11-19 at 10 28 55 PM" src="https://github.com/basil-ahmed/Wearables/assets/90772853/157c6606-a4a5-424c-92b2-063207d423f1">
+  
+   ![IMG_7376](https://github.com/basil-ahmed/Wearables/assets/90772853/f735e4f7-674d-4c54-bf26-0c798631ff93)
+
+- **When Faces are detected:**
+
+  <img width="1440" alt="Screenshot 2023-11-19 at 10 29 57 PM" src="https://github.com/basil-ahmed/Wearables/assets/90772853/e0f16ff7-f55c-4150-ac0c-2a0bf5284585">
+
+  ![IMG_7375](https://github.com/basil-ahmed/Wearables/assets/90772853/d52c8b20-ef7f-4ee2-a9eb-64d9b918b49c)
+
+
+#### Establishing UART Communication
+
+Another major development was figuring out how to establish communication between the OpenMV and the Arduino Nano. This was achieved using UART (Universal Asynchronous Receiver/Transmitter) communication, a method that allows for serial communication between devices.
+
+#### How UART Communication Works
+
+- **Wiring**: The process involves connecting the two microprocessors with wires. This is done by connecting the TX (transmit) pin of one device to the RX (receive) pin of the other, and vice versa.
+
+- **Data Transmission**: Data is transmitted serially, meaning one bit at a time, over these connections. This method is effective for short-distance communication between microcontrollers and peripheral devices.
+
+- **Synchronization**: The devices are synchronized to a common baud rate to ensure proper data transmission and reception.
+
+This UART setup will enable the OpenMV camera to send data to the Arduino Nano, such as the count of detected faces.
+
+#### Next Steps and Considerations
+
+Moving forward, the next steps involve:
+
+1. **Determining the Output**: I am considering different output options like using Bluetooth for smartphone communication, LEDs, or sound alerts through a speaker.
+
+2. **Sewing the Boards on a Cap**: Both the OpenMV camera and Arduino Nano, along with the chosen output device, will be sewn onto a cap. This requires careful planning to ensure stability and functionality.
+
+3. **Powering the Boards**: A key question arises – how will both these boards be powered effectively when mounted on the cap? This is crucial for the portability and usability of the project.
+
+#### Questions and Reflections
+
+As I delve deeper into this project, several questions come to mind:
+
+1. **What is the most efficient way to power both the OpenMV camera and the Arduino Nano when they are sewn onto a cap?**
+
+2. **Are there any potential issues I should anticipate with UART communication in this setup?**
+
+3. **What would be the most user-friendly and practical output method for this project – Bluetooth communication, LEDs, or a speaker system?**
+
+4. **How can I ensure that the sewing of the boards onto the cap is secure and does not interfere with their functionality?**
+
+This project is proving to be an exciting challenge, blending hardware interfacing, coding, and creative problem-solving. I am eager to continue this journey and look forward to any feedback or suggestions from the community.
 
 ---
