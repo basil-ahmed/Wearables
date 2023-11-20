@@ -162,9 +162,9 @@ This breakthrough is a significant step towards achieving the project’s goals.
 
 #### Establishing UART Communication
 
-Another major development was figuring out how to establish communication between the OpenMV and the Arduino Nano. This was achieved using UART (Universal Asynchronous Receiver/Transmitter) communication, a method that allows for serial communication between devices.
+Another major development was figuring out how to establish communication between the OpenMV and the Arduino Nano. I first tried using UART (Universal Asynchronous Receiver/Transmitter) communication, a method that allows for serial communication between devices.
 
-#### How UART Communication Works
+##### How UART Communication Works
 
 - **Wiring**: The process involves connecting the two microprocessors with wires. This is done by connecting the TX (transmit) pin of one device to the RX (receive) pin of the other, and vice versa.
 
@@ -173,6 +173,25 @@ Another major development was figuring out how to establish communication betwee
 - **Synchronization**: The devices are synchronized to a common baud rate to ensure proper data transmission and reception.
 
 This UART setup will enable the OpenMV camera to send data to the Arduino Nano, such as the count of detected faces.
+
+#### Switching from UART to I2C Communication
+
+- **Initial Attempts with UART Communication:** In my previous update, I discussed the process of establishing UART communication between the OpenMV camera and the Arduino Nano. This involved connecting the TX and RX pins of the devices for serial data transmission and synchronizing them to a common baud rate. While UART is effective for short-distance communication, I encountered challenges in implementing this setup effectively.
+- **Transitioning to I2C Communication:** Due to difficulties with the UART setup, I decided to switch to I2C (Inter-Integrated Circuit) communication. This method offers several advantages for microcontroller communication, including simpler wiring and potentially more reliable data transfer.
+- **How I2C Communication Works:**
+   - **Wiring Setup**: The I2C communication requires fewer connections. The OpenMV Cam's I2C Data (P5) and I2C Clock (P4) are connected to the Arduino Uno's Data (A4) and Clock (A5) pins, respectively. Both devices share a common ground connection.
+     ![IMG_7401](https://github.com/basil-ahmed/Wearables/assets/90772853/90e1be4b-6264-4128-ab80-d0a9b7ebfd6b)
+
+
+   - **Data Transmission**: In I2C, two lines (SDA for data, SCL for clock) are used. Data is transmitted in packets, with each packet containing information about the sender, receiver, and the data itself. This protocol allows for more flexibility and control over data transmission compared to UART.
+   
+   - **Error Handling and Synchronization**: Unlike UART, I2C includes built-in mechanisms for error checking and requires synchronization only for the clock line, simplifying the setup.
+
+- **Implementation and Code Example:** The updated code for the OpenMV and Arduino is focused on establishing the OpenMV Cam as an I2C slave and the Arduino as the master. The Python script for the OpenMV Cam uses the `pyb.I2C` library to set up the I2C communication, handle data packing, and manage potential transmission errors. Meanwhile, the Arduino code employs the `Wire` library to initiate requests for data from the OpenMV Cam, process incoming data packets, and handle any discrepancies in the received data.
+
+This I2C setup is intended to enhance the reliability of communication between the OpenMV camera and the Arduino Nano, ensuring more stable data transfer for applications like facial detection and count.
+
+---
 
 #### Next Steps and Considerations
 
