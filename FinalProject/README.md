@@ -220,3 +220,40 @@ This project is proving to be an exciting challenge, blending hardware interfaci
 ---
 
 ## Week 4 Updates: 
+
+**Title: Navigating NeoPixels and OpenMV Cam: My Weekly Project Update**
+
+**Introduction:**
+Welcome back to my blog where I chronicle my journey through the dynamic world of wearable technology. This week's update is especially exciting as it marks a significant pivot in my final project. Initially, I planned to use mobile phone notifications as an output for the number of people detected by the OpenMV Cam. However, after considering the time constraints and potential anxiety-inducing effects of increasing LED blink rates, a discussion with my professor led to a strategic shift. We decided to employ NeoPixels as a more visually appealing and less stress-inducing output method. Here's how this week unfolded with this new direction.
+
+**The Shift to NeoPixels**
+
+Adapting to the new plan, I dove into controlling NeoPixels using the OpenMV Cam. This involved researching and figuring out NeoPixel compatibility and then running a sample code that showcased a mini light show, a testament to the versatility and visual appeal of NeoPixels. The idea is for the lights to change in color and pattern in response to the number of people detected, offering a more subtle and engaging feedback mechanism.
+
+Reference: https://docs.micropython.org/en/v1.8.2/esp8266/esp8266/tutorial/neopixel.html
+
+https://github.com/basil-ahmed/Wearables/assets/90772853/2d26be05-80ab-43e8-a403-2befd0929833
+
+
+**Overcoming Lab Challenges**
+
+Despite the excitement of the NeoPixels, I encountered a minor setback. I intended to glue the wires to the NeoPixels for a tidier setup, but all the glue guns in the lab were unavailable. This hiccup, though a small one, was a reminder of the need for flexibility and problem-solving in any project.
+
+I also tried using the black NeoPixel strip as that would've looked better with the black cap, however, because of already existing resistors and a 3.3V OpenMV Output, I had to work with the White NeoPixel Strip.
+
+**Creating a Home for the OpenMV Cam**
+
+Another key development this week was finding the perfect box for the OpenMV Cam. The box will not only protect the board but will also be mounted on the top of the cap, forming the core of my project. I've chosen Velcro for its attachment, balancing the need for secure placement with the flexibility of easy removal.
+
+![IMG_7866 Medium](https://github.com/basil-ahmed/Wearables/assets/90772853/5a316a58-c819-4d29-8ba6-5b2319a62f4c)
+
+
+**Conclusion:**
+
+This week has been a mix of progress and learning. The switch to NeoPixels has opened up new creative avenues, while the challenges faced in the lab have taught me the importance of adaptability. Each step, whether it's programming a light show or selecting the right box for the camera, is bringing me closer to the completion of this innovative project.
+
+**Looking Ahead**
+
+I'm eager to further explore the capabilities of the NeoPixels and to finalize the mounting of the OpenMV Cam!
+
+---
