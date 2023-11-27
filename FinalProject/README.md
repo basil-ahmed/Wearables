@@ -218,3 +218,5 @@ As I delve deeper into this project, several questions come to mind:
 This project is proving to be an exciting challenge, blending hardware interfacing, coding, and creative problem-solving. I am eager to continue this journey and look forward to any feedback or suggestions from the community.
 
 ---
+
+## Week 4 Updates: 
