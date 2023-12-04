@@ -259,3 +259,78 @@ I'm eager to further explore the capabilities of the NeoPixels and to finalize t
 ---
 
 ## Week 5 Updates: 
+
+**Title: Nearing Completion: In-Depth Week 5 Update on My Wearable Tech Project**
+
+![DALL·E 2023-12-04 17 09 08 - A sequence of images depicting the process of a final project in technology and wearables  Image 1_ A person soldering red, white, and orange wires (P](https://github.com/basil-ahmed/Wearables/assets/90772853/250297c3-a594-47de-9d35-c622aec39963)
+
+**Introduction:**
+Hello readers! As I near the completion of my wearable technology project, I'm here to share a comprehensive Week 5 update. This week was pivotal, full of intricate tasks and critical decision-making. From precise soldering to integrating the wearables component, each step was taken with specific goals in mind. Let me walk you through the detailed process of this week's advancements.
+
+**Soldering and Stabilizing the Wires**
+
+The week commenced with soldering the power (PWR, Red), ground (GND, White), and data input (DI, Orange) wires to the NeoPixels. The choice of these specific colors was to ensure easy identification and minimize errors during connection. Soldering provided a strong electrical connection necessary for the consistent operation of the NeoPixels. To further stabilize these connections and prevent any potential short-circuits, I applied hot glue over the soldered areas. This not only secured the wires physically but also insulated them, reducing the risk of electrical faults.
+
+![IMG_7877](https://github.com/basil-ahmed/Wearables/assets/90772853/e8ee3a3d-fc4c-4164-9189-ee619e37be0f)
+
+![IMG_7879](https://github.com/basil-ahmed/Wearables/assets/90772853/e72ea015-a7da-4a04-9901-6933d8c05266)
+
+![IMG_7880](https://github.com/basil-ahmed/Wearables/assets/90772853/ed8d42fe-159e-4c0e-8bea-927c06c6d3e9)
+
+**Meticulous Multimeter Testing**
+
+After soldering, I tested each connection with a multimeter, using its audio continuity function. This step was crucial to confirm that there were no loose connections or shorts. This thorough testing ensured the reliability of my soldering work and the overall integrity of the electronic circuit.
+
+![IMG_7878](https://github.com/basil-ahmed/Wearables/assets/90772853/93a77a42-e5d0-4e75-b921-a9206d7b5c50)
+
+
+**Independent Operation with Battery Power**
+
+*Image: The project powered by a 1200 mAh battery.*
+![IMG_7883](https://github.com/basil-ahmed/Wearables/assets/90772853/1fc0b826-eb45-4d63-b8ea-c138fe5993f2)
+
+A significant milestone was testing the OpenMV uploaded code with a 1200 mAh battery. This battery choice was influenced by its capacity to provide adequate power for extended periods, making the device more practical for real-world use. Running the code on battery power demonstrated the project's functionality independent of a computer, a key aspect of wearable technology.
+
+
+https://github.com/basil-ahmed/Wearables/assets/90772853/de86fab5-b9fe-4c4c-b877-6a353fd2eb68
+
+
+**Integrating the Technology into Wearables**
+
+The integration of the technology into a wearable form involved choosing a cap as the base. The cap was selected for its universal fit and ease of wear. I attached the NeoPixel strip with super glue, a robust adhesive that ensured a firm hold while being discreet. The placement of the strip was strategically done to ensure visibility of the lights when worn, enhancing the user's experience.
+
+![IMG_7922](https://github.com/basil-ahmed/Wearables/assets/90772853/484f4963-3b77-458b-ac91-643e8ae30791)
+
+![IMG_7923](https://github.com/basil-ahmed/Wearables/assets/90772853/211d2fb8-69d0-4e34-a047-97f860ccf2f6)
+
+**Selecting and Preparing the Electronics Housing**
+
+Choosing a new box to house the camera, microprocessor, wires, and battery was a decision based on size and convenience. The box needed to be large enough to accommodate all components while being compact enough to fit comfortably on the cap. I customized the box by making a hole for the camera and providing an opening for the USB cable, which allowed for easy access during testing and troubleshooting.
+
+![IMG_7924](https://github.com/basil-ahmed/Wearables/assets/90772853/b95a59d5-2140-41ef-8cd5-7262f639602d)
+
+**Attaching the Box to the Cap**
+
+Mounting the box onto the cap involved using Velcro. This choice was driven by the need for a secure yet removable attachment method. Velcro provides the flexibility to detach the box for adjustments or maintenance while ensuring it stays in place during use.
+
+![IMG_7926](https://github.com/basil-ahmed/Wearables/assets/90772853/8cda1ba9-6c09-4898-87d1-0ecd78a30203)
+
+**Aesthetic Enhancement**
+
+Painting the box black was an aesthetic decision to harmonize it with the cap's color. This touch was crucial for the visual appeal of the project, making the technology appear seamless with the wearable component.
+
+![IMG_7927](https://github.com/basil-ahmed/Wearables/assets/90772853/061f11f2-00a6-4d4f-bf4b-32955e2f1f0b)
+
+**Real-World Testing and Code Development**
+
+Developing a code to correlate the number of people detected with the lighting pattern was the next step. This functionality was tested in a real-world scenario with friends to verify its accuracy and responsiveness. This test was essential to ensure that the project worked as intended in actual use.
+
+**Upcoming Task: Camera Orientation**
+
+The final task for the upcoming week is to adjust the camera's orientation by 90 degrees. This adjustment is necessary for both aesthetic reasons and to optimize the camera's field of view. The corresponding code modification will involve rotating the frame within the software to maintain detection accuracy.
+
+**Conclusion:**
+
+Week 5 has been a journey of precision, practical decision-making, and creative problem-solving. With the project now 95% complete, I am excited to share the final touches in the upcoming update. Stay tuned for the culmination of this innovative wearable technology project!
+
+---
