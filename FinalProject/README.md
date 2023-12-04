@@ -257,3 +257,5 @@ This week has been a mix of progress and learning. The switch to NeoPixels has o
 I'm eager to further explore the capabilities of the NeoPixels and to finalize the mounting of the OpenMV Cam!
 
 ---
+
+## Week 5 Updates: 
