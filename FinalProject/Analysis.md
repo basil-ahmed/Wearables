@@ -8,13 +8,13 @@
 
 ### Actuating
 
-**Smart Cap's Actuating Mechanisms**: The Smart Cap utilizes LEDs and a speaker as actuating mechanisms. The LEDs provide visual feedback, while the speaker offers audio cues. These actuations are responses to the sensory input from the OpenMV camera.
+**Smart Cap's Actuating Mechanisms**: The Smart Cap utilizes NeoPixels as actuating mechanisms. They provide visual feedback, while the notifications to mobile will provide textual feedback. These actuations are responses to the sensory input from the OpenMV camera.
 
 **Analysis**: The actuation methods chosen are direct and intuitive, translating sensory data into understandable feedback for the user. This design decision ensures that the Smart Cap's responses are clear and immediate, a key aspect in social wearable technology.
 
 ### Sensing-Actuating Interplay
 
-**Interplay in Smart Cap**: The interplay between sensing (OpenMV camera) and actuating (LEDs and speaker) in the Smart Cap is dynamic. The device processes visual data from the environment and translates it into audio or visual alerts, creating a direct correlation between input and output.
+**Interplay in Smart Cap**: The interplay between sensing (OpenMV camera) and actuating (NeoPixels and WiFi) in the Smart Cap is dynamic. The device processes visual data from the environment and translates it into audio or visual alerts, creating a direct correlation between input and output.
 
 **Analysis**: This interplay is crucial for the functionality of the Smart Cap, as it defines how the device interacts with its user and environment. The effectiveness of this interplay is central to the user experience and the device’s utility in social contexts.
 
@@ -36,4 +36,4 @@
 
 **Analysis**: Assessing and potentially improving the aesthetic and unobtrusive nature of the Smart Cap could be crucial for its social acceptability. Integrating technology seamlessly into everyday wearables is a significant factor in the success of social wearables.
 
-This analysis, based on the researcher's design framework, shows that while the Smart Cap aligns well with several key aspects, there are areas (like inter-wearable interaction and social acceptability) that could be explored further in future iterations. Your response will provide a solid foundation for discussion and development in class.
+This analysis, based on the researcher's design framework, shows that while the Smart Cap aligns well with several key aspects, there are areas (like inter-wearable interaction and social acceptability) that could be explored further in future iterations.
