@@ -334,3 +334,37 @@ The final task for the upcoming week is to adjust the camera's orientation by 90
 Week 5 has been a journey of precision, practical decision-making, and creative problem-solving. With the project now 95% complete, I am excited to share the final touches in the upcoming update. Stay tuned for the culmination of this innovative wearable technology project!
 
 ---
+
+## Week 6 Updates:
+
+**Title:** Breakthrough in Smart Cap: Camera Feed Rotation and Successful Testing
+
+**Introduction:**
+
+Hello everyone! Welcome back to my weekly update on the Smart Cap project. This week has been particularly exciting as I achieved a significant milestone in enhancing the OpenMV camera’s functionality and successfully tested the Smart Cap with multiple people. Let’s dive into the details of this week’s progress.
+
+**Rotating the Camera Feed:**
+
+One of the technical challenges I faced was the orientation of the OpenMV camera feed. Given the positioning of the camera on the cap, the feed needed to be rotated to accurately capture the environment in front of the wearer. This week, I managed to rotate the camera feed using MicroPython, a huge step towards making the Smart Cap more practical and user-friendly.
+
+The process involved delving into the OpenMV documentation and tweaking the camera settings using MicroPython code. This adjustment now allows the camera to capture images in the correct orientation, irrespective of how it’s mounted on the cap.
+
+**Successful Testing with People Detection:**
+
+The real triumph of the week was the successful testing of the Smart Cap with up to three people. Using the Haar Cascade algorithm, the cap could effectively detect and distinguish individuals in its vicinity. This testing was crucial in validating the cap's ability to function accurately in real-world scenarios.
+
+The tests were conducted in various settings to simulate different levels of crowd density. The Smart Cap performed remarkably well, providing accurate visual feedback through the NeoPixels based on the number of people detected. This success marks a significant leap forward in the project, bringing the Smart Cap closer to its intended functionality.
+
+**Reflections and Learnings:**
+
+This week’s achievements have been incredibly rewarding. Overcoming the challenge with the camera orientation has not only improved the functionality but also deepened my understanding of camera systems and MicroPython programming. The successful people detection test has boosted my confidence in the project's potential and applicability in real-life situations.
+
+**Conclusion:**
+
+The sixth week of development has been a blend of technical triumphs and reaffirming the practicality of the Smart Cap. Each step, whether it's tweaking code or real-world testing, brings this project closer to its goal – enhancing spatial awareness for visually impaired individuals in crowded environments. Stay tuned for more updates as the Smart Cap continues to evolve!
+
+> **_Next Steps:_** The Final Project for the course has been completed! I will keep working on the prototype to make it go out in the world.
+
+---
+
+_Thank you for following along on this journey. Your support and feedback have been invaluable. If you have any suggestions or insights, feel free to share them in the comments below!_
