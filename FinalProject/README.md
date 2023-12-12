@@ -1,7 +1,30 @@
-# Final Project Updates
-## Smart Cap
+# Smart Cap
+## Description
 
-### Week 1 Updates:
+The Smart Cap project represents an innovative convergence of wearable technology and assistive devices. At its core, the Smart Cap is designed to enhance spatial awareness for individuals with visual impairments, utilizing a synergy of advanced sensors and smart feedback systems. With the integration of an OpenMV camera, a NeoPixel LED strip, and a microcontroller, this cap can detect the presence and proximity of people in crowded environments and provide intuitive visual and tactile feedback to the wearer.
+
+## Inspiration
+
+The idea for the Smart Cap was born from a personal experience in Times Square, NYC. During my first week in the city, I witnessed a visually impaired person navigating the chaotic and crowded streets with the aid of a traditional white cane. The challenges they faced — from avoiding obstacles to detecting the flow of people — sparked a realization in me about the potential for technology to aid in these daily tasks.
+
+The bustling energy of Times Square, with its overwhelming sights and sounds, exemplified the complex environments that can pose significant challenges to those with visual impairments. This encounter became the catalyst for the Smart Cap, driving me to develop a solution that could provide a sense of confidence and independence for visually impaired individuals in similar situations.
+
+## Project Features
+
+- **OpenMV Camera**: Captures real-time video feeds for processing and person detection.
+- **NeoPixel LED Strip**: Provides visual feedback via color changes and patterns.
+- **Microcontroller (Arduino Nano 33 IoT)**: Serves as the central processing unit, interpreting sensor data and controlling feedback mechanisms.
+- **Battery Pack (1300mAh)**: Powers the entire system, ensuring portability and ease of use.
+
+## How It Works
+
+The Smart Cap operates on a simple yet effective principle: the OpenMV camera continuously scans the immediate surroundings, the processed data is then used to control the NeoPixel LEDs, which change colors and patterns to indicate the presence and proximity of other individuals. This visual feedback allows users to understand their environment better and make informed decisions about navigation and movement.
+
+---
+
+# Final Project Updates
+
+## Week 1 Updates:
 
 #### Description of the Circuit:
 
