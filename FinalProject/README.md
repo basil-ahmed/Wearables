@@ -20,6 +20,16 @@ The bustling energy of Times Square, with its overwhelming sights and sounds, ex
 
 The Smart Cap operates on a simple yet effective principle: the OpenMV camera continuously scans the immediate surroundings, the processed data is then used to control the NeoPixel LEDs, which change colors and patterns to indicate the presence and proximity of other individuals. This visual feedback allows users to understand their environment better and make informed decisions about navigation and movement.
 
+## Finished Project Pictures:
+
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/fbda4653-8519-4d27-bb5e-1091dee38ee1" height="800" width="600" alt="IMG_8219"/>
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/2b1b40da-f364-4163-946f-b228dddfcb4b" height="800" width="600" alt="IMG_8220"/>
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/46533c5a-617b-49e2-8797-a75cc2f8533a" height="800" width="600" alt="IMG_8221"/>
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/3ca88988-b787-42a3-b096-dda7be71926d" height="800" width="600" alt="IMG_8222"/>
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/ff3319f6-c1ea-4849-8281-4b8efa012235" height="800" width="600" alt="IMG_8223"/>
+<img src="https://github.com/basil-ahmed/Wearables/assets/90772853/13841db0-9904-497b-9f3b-6d25fd37b969" height="800" width="600" alt="IMG_8224"/>
+
+
 ---
 
 # Final Project Updates
